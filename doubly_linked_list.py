@@ -77,7 +77,7 @@ class doubly_linkedList:
         else:
             last_node.next_node = current_node.next_node
             current_node.pre_node = last_node
-        
+        self.Number_of_Nodes -= 1
 
 if __name__ == '__main__':
 
